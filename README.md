@@ -12,8 +12,8 @@ länk: https://lab-2-168c.onrender.com/ (render)
 - Varför använder man branches istället för att jobba direkt i main?
 - för att separera ändrad koden från den fungerande versionen samt för samarbete.
 -Vad händer rent praktiskt när man gör en merge?
-- Alla andringar som har gjorts i den main-filen.
+- Ändringar i en branch går ihop med en annan branch (oftast main). Git kombinerar historiken och skapar ofta en merge-commit.
 -Vad är skillnaden mellan att pusha till GitHub och att publicera direkt på t.ex. Netlify?
-- Man kan lätt använda och göra ändringar i koden genom push och pull. På andra webbsidor saknas denna möjlighet.
+- När man pushar sin kod till Github så skapas en versionhistorik online/backup och det ger möjligheter till samarbete med andra människor. Medan den inte publicerar webbsida automatiskt. Medan Netlify gör en webbplats som besökare kan öppna och kan kopplas till github för automatisk uppdatering vid varje push. 
 -Om du vill exkludera någon fil i projektet från versionshanteringen, hur gör du då?
-- Man kan skapar en fil som heter .gitignore i projektmappen. Efter det skriver man in namnen på de filer eller mappar som Git inte ska versionshantera.
+- Man kan skapa en fil som heter .gitignore i projektmappen. Efter det skriver man in namnen på de filer eller mappar som Git inte ska versionshantera.
